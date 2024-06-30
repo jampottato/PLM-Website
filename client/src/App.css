@@ -1,0 +1,47 @@
+@import url("../src/Components/MobileView/Mobile.css");
+@import url("../src/Components/WebView/Web.css");
+@import url("../src/routes/Academics/Academics.css");
+@import url("./Swiper.css");
+@import url("./FooterLinks.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  scroll-behavior: smooth;
+  font-family: "Open Sans , sans-serif";
+}
+
+.main {
+  background-image: url("../src/assets/plm.png");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.65);
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth !important;
+  position: relative;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.seal {
+  background-image: url("../src/assets/sibuyas.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  z-index: 1;
+  box-shadow: inset 0 0 0 2000px rgb(0, 102, 153, 0.85);
+}
